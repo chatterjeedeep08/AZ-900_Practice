@@ -1,6 +1,6 @@
 # ⬆️ Microsoft Azure AZ-900 (Microsoft Azure Fundamentals) Practice Tests Exams Questions & Answers
 
-![Promotional image](images/promotional.png)
+![Promotional image](public/promotional.png)
 
 ## Udemy & Etsy
 
@@ -12,7 +12,7 @@
 
 ✋ Join a live online community and a course taught by industry experts and pass the Microsoft Azure AZ-900 (Microsoft Azure Fundamentals) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
 
-[![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
+[![Join our Discord](public/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
 
 ## ⌛️ Short and to the point; why should you take the course:
 

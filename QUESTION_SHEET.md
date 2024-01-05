@@ -1,3 +1,5 @@
+Practise Questions for AZ-900 Microsoft Azure Fundamentals
+https://dechatterjee-az900-practice.netlify.app/
 
 ### If you plan to web application in the Azure platform as a service solution of Azure Web Apps, then the platform will have the ability to scale automatically?
 

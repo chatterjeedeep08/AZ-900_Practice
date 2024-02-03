@@ -1,6 +1,6 @@
 # ⬆️ Microsoft Azure AZ-900 (Microsoft Azure Fundamentals) Practice Tests Exams Questions & Answers
 ## Quiz Link
-https://dechatterjee-az900-practice.netlify.app/
+https://az900-dechatterjee-practise.netlify.app/
 
 ![Promotional image](public/promotional.png)
 

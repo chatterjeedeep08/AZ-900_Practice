@@ -12,7 +12,7 @@ export const DataProvider = ({ children }) => {
   const [selectedAnswer, setSelectedAnswer] = useState('');
   const [marks, setMarks] = useState(0);
   const [flag, setFlag] = useState(true); // [true, false
-  const [Timer, setTimer] = useState(5100);
+  const [Timer, setTimer] = useState(2700);
   const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 
@@ -39,7 +39,7 @@ export const DataProvider = ({ children }) => {
     if(quizs.length > 0 && flag){
       const shuffledQuestions = quizs.sort(() => 0.5 - Math.random());
       //console.log(shuffledQuestions.slice(0, 10));
-      setSelectedQuestions(shuffledQuestions.slice(0, 60));
+      setSelectedQuestions(shuffledQuestions.slice(0, 30));
       setFlag(false);
     }
   },[flag,quizs,selectedQuestions]);
@@ -76,7 +76,7 @@ export const DataProvider = ({ children }) => {
   }
 
   const startTimer = async () => {
-    for (let i = 5100; i >= 0; i--) {
+    for (let i = Timer; i >= 0; i--) {
       setTimer(i);
       console.log(i);
       await delay(1000); // Wait for 1 second
@@ -93,7 +93,7 @@ export const DataProvider = ({ children }) => {
 
       if (selected === question.answer) {
         event.target.classList.add('bg-success');
-        setMarks(marks + 0.8);
+        setMarks(marks + 1);
       } else {
         event.target.classList.add('bg-danger');
       }
@@ -129,7 +129,7 @@ export const DataProvider = ({ children }) => {
     <DataContext.Provider value={{
       startQuiz, showStart, showQuiz, question, quizs, checkAnswer, correctAnswer,
       selectedAnswer, questionIndex, nextQuestion, showTheResult, showResult, marks, Timer,
-      startOver
+      startOver, setTimer
     }} >
       {children}
     </DataContext.Provider>

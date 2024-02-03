@@ -9,7 +9,7 @@ const Quiz = () => {
         <section className="bg-dark text-white" style={{ display: `${showQuiz ? 'block' : 'none'}` }}>
             <div className="container">
                 <h1 className='fw-bold text-center mb-4'>AZ 900 Practice Questions</h1>
-                <h3 className='fw-bold text-center mb-4'>Question {questionIndex + 1}</h3>
+                <h3 className='fw-bold text-center mb-4'>Question {questionIndex + 1} / 30</h3>
                 <h3 className='fw-bold text-center mb-4'>Score: {marks}</h3>
                 <h3 className='fw-bold text-center mb-4'>Time: {Math.floor(Timer/3600)} hr, {Math.floor(Timer/60)} mins, {Timer%60} sec</h3>
             </div>
